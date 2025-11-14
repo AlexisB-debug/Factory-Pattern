@@ -1,8 +1,8 @@
 namespace FactoryPattern;
 
-public static class Excavate
+public static class FindFactory
 {
-    public static IFind CreateFind(string treasure)
+    public static IFind GetFind(string treasure)
     {
         switch (treasure.ToLower())
         {

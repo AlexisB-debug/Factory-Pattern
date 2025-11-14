@@ -7,15 +7,12 @@
             Console.WriteLine("Create a treasure!");
             string treasure = TreasureDoWhileLoop();
             
-            var remnant = Excavate.CreateFind(treasure);
+            var remnant = FindFactory.GetFind(treasure);
             remnant.Unearth();
 
             static string TreasureDoWhileLoop()
             {
                 string treasure;
-                // string artifact = "artifact";
-                // string fossil = "fossil";
-                // string ore = "ore";
 
                 do
                 {

@@ -73,7 +73,7 @@ public class Artifact : IFind
         
         do
         {
-            Console.WriteLine("Please, type 'installation' 'pottery' or 'sculpture'");
+            Console.WriteLine("Please, type 'installation', 'pottery', or 'sculpture'");
             art = Console.ReadLine().ToLower();
         }while(art != "installation" && art != "pottery" && art != "sculpture");
         return art;
@@ -82,13 +82,58 @@ public class Artifact : IFind
     public string ReligiousDoWhileLoop()
     {
         string religious;
+        string apple = "Apple of Discord";
+        string ark = "the Ark of the Covenant";
+        string crown = "Crown of Thorns";
+        string excalibur = "Excalibur";
+        string fleece = "the Golden Fleece";
+        string holyGrail = "the Holy Grail";
+        string box = "Pandora's Box";
+        string shroud = "the Shroud of Turin";
+        string trident = "the Trident of Poseidon";
         
         do
         {
-            Console.WriteLine("Please, type the 'Ark of the Covenant', the 'Holy Grail', 'Pandora's box', or the 'Shroud of Turin'");
+            Console.WriteLine("Please, type the 'Apple of Discord', the 'Ark of the Covenant', the 'Crown of Thorns', 'Excalibur', the 'Golden Fleece', the 'Holy Grail', 'Pandora's box', the 'Shroud of Turin' or the 'Trident of Poseidon'");
             religious = Console.ReadLine().ToLower();
-        }while(religious != "ark of the covenant" && religious != "holy grail" && religious != "pandora's box" && religious != "shroud of turin");
-        return religious;
+        }while(religious != "apple of discord" && religious != "ark of the covenant" && religious != "crown of thorns" && religious != "excalibur" && religious != "golden fleece" && religious != "holy grail" && religious != "pandora's box" && religious != "shroud of turin" && religious != "trident of poseidon");
+
+        if (religious == "apple of discord")
+        {
+            return apple;
+        }
+        else if (religious == "ark of the covenant")
+        {
+            return ark;
+        }
+        else if (religious == "crown of thorns")
+        {
+            return crown;
+        }
+        else if (religious == "excalibur")
+        {
+            return excalibur;
+        }
+        else if (religious == "golden fleece")
+        {
+            return fleece;
+        }
+        else if (religious == "holy grail")
+        {
+            return holyGrail;
+        }
+        else if (religious == "pandora's box")
+        {
+            return box;
+        }
+        else if (religious == "shroud of turin")
+        {
+            return shroud;
+        }
+        else // (religious == "trident of poseidon")
+        {
+            return trident;
+        }
     }
     
     public string ToolDoWhileLoop()
