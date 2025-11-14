@@ -65,7 +65,7 @@ public class Fossil : IFind
         {
             Console.WriteLine("Please, type 'petrified wood', 'dinosaur egg' or 'Petoskey stones'");
             petrifiedFossil = Console.ReadLine().ToLower();
-        }while(petrifiedFossil != "footprints" && petrifiedFossil != "fossilized nest");
+        }while(petrifiedFossil != "petrified wood" && petrifiedFossil != "dinosaur egg", && petrifiedFossil != "Petoskey stones");
         return petrifiedFossil;
     }
 }

@@ -7,8 +7,8 @@
             Console.WriteLine("Create a treasure!");
             string treasure = TreasureDoWhileLoop();
             
-            var find = Excavate.CreateFind(treasure);
-            find.Unearth();
+            var remnant = Excavate.CreateFind(treasure);
+            remnant.Unearth();
 
             static string TreasureDoWhileLoop()
             {
