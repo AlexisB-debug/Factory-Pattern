@@ -19,9 +19,9 @@
 
                 do
                 {
-                    Console.WriteLine("Please, type the word 'artifact', 'fossil', or 'ore'");
+                    Console.WriteLine("Please, type the word 'artifact', 'fossil', or 'mineral'");
                     treasure = Console.ReadLine().ToLower();
-                }while(treasure != "artifact" && treasure != "fossil" && treasure != "ore");
+                }while(treasure != "artifact" && treasure != "fossil" && treasure != "mineral");
                 return treasure;
             }
         }

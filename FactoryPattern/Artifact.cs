@@ -32,7 +32,7 @@ public class Artifact : IFind
     }
     
     
-    public string ArtifactDoWhileLoop()
+    public static string ArtifactDoWhileLoop()
     {
         string artifact;
         
@@ -84,7 +84,7 @@ public class Artifact : IFind
         
         do
         {
-            Console.WriteLine("Please, type 'Ark of the Covenant', 'Holy Grail', 'Pandora's box', or 'Shroud of Turin'");
+            Console.WriteLine("Please, type the 'Ark of the Covenant', the 'Holy Grail', 'Pandora's box', or the 'Shroud of Turin'");
             religious = Console.ReadLine().ToLower();
         }while(religious != "ark of the covenant" && religious != "holy grail" && religious != "pandora's box" && religious != "shroud of turin");
         return religious;

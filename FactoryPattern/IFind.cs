@@ -2,5 +2,5 @@ namespace FactoryPattern;
 
 public interface IFind
 {
-    void Unearth();
+    public void Unearth();
 }
