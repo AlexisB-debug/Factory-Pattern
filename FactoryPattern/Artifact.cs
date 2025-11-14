@@ -73,9 +73,9 @@ public class Artifact : IFind
         
         do
         {
-            Console.WriteLine("Please, type 'installation' or 'sculpture'");
+            Console.WriteLine("Please, type 'installation' 'pottery' or 'sculpture'");
             art = Console.ReadLine().ToLower();
-        }while(art != "installation" && art != "sculpture");
+        }while(art != "installation" && art != "pottery" && art != "sculpture");
         return art;
     }
     
