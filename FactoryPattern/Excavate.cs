@@ -10,10 +10,8 @@ public static class Excavate
                 return new Artifact();
             case "fossil":
                 return new Fossil();
-            case "mineral":
+            default: // "mineral"
                 return new Mineral();
-            default:
-                Console.WriteLine(treasure);
         }
     }
 }

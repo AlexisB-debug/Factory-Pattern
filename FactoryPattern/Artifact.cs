@@ -25,9 +25,10 @@ public class Artifact : IFind
                 Console.WriteLine("The treasure is that which was forged from fire.\nWhat technology brings man closest to the gods?");
                 Console.WriteLine($"{ToolDoWhileLoop()}!");
                 break;
-            default: //"personal or miscellaneous":
+            default: //"personal or miscellaneous"
                 Console.WriteLine("The treasure is the sky or the world.");
                 Console.WriteLine($"Holding {MiscellaneousDoWhileLoop()}");
+                break;
         }
     }
     
